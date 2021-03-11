@@ -5,7 +5,6 @@ import pyautogui
 import os
 import time
 import ctypes
-import win32api
 
 delay = 0.8 
 elapsed = 0
