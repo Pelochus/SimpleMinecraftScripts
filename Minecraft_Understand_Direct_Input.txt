@@ -1,5 +1,4 @@
 import ctypes
-import win32api
 import os
 
 PUL = ctypes.POINTER(ctypes.c_ulong)
