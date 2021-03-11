@@ -5,7 +5,6 @@ import pyautogui
 import time
 import os
 import ctypes
-import win32api
 
 # ---------- Classes and Functions ----------
 
