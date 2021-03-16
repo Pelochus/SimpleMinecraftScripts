@@ -5,7 +5,7 @@ These scripts are quite simple. Each one makes different basic Minecraft actions
 
 ### Requirements
   - Python 3.x
-  - PyAutoGUI Installed (except HoldShift.py)
+  - PyAutoGUI Installed (except for HoldShift.py)
 
 ### Brief description
   - HoldShift: Holds shift for a variable amount of time
