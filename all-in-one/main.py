@@ -10,7 +10,7 @@ import os
 import pyautogui
 import smcs
 
-# Necessary for pyinstaller using -u option
+# Necessary for not using -u option while running through PythonVM
 os.environ["PYTHONUNBUFFERED"] = "1"
 
 # --- Functions ---
