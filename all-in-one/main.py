@@ -6,8 +6,12 @@ Made by: Pelochus
 
 """
 
+import os
 import pyautogui
 import smcs
+
+# Necessary for pyinstaller using -u option
+os.environ["PYTHONUNBUFFERED"] = "1"
 
 # --- Functions ---
 def show_menu():

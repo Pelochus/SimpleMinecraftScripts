@@ -1,5 +1,9 @@
+# Library made for low-level keypresses detection
+# Minecraft uses DirectInput API for keyboard presses
+# PyAutoGui is unable make Minecraft detect keypresses
+# This code makes it work
+
 import ctypes
-# import os
 
 PUL = ctypes.POINTER(ctypes.c_ulong)
 
