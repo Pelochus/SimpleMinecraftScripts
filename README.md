@@ -15,6 +15,7 @@ These scripts are quite simple. Each one makes different basic Minecraft actions
 ### Issues
 #### Why does the program runs for less time than what I've input?
 In the all-in-one program, time.sleep() function doesn't work properly unless `-u` argument is added to `python` options. However, it should work properly for single scripts. Run script like this if something fails.
+
 `python3 -u main.py`
 
 ### Credits
