@@ -12,6 +12,7 @@ These scripts are quite simple. Each one makes different basic Minecraft actions
   - HoldRMB and HoldLMB: Holds Right and Left Mouse Buttons for a variable amount of time with a configurable delay between clicking the button and releasing it. Can be used for repeated clicking instead of holding.
   - RMB-SpaceLoop: Jumps while clicking RMB. Useful for making colums. In my case I used it for building a huge concrete powder column over a lake. Once done, I used HoldLMB to remove the powder converted to concrete.
 
+### Issues
 #### Why does the program runs for less time than what I've input?
 In the all-in-one program, time.sleep() function doesn't work properly unless `-u` argument is added to `python` options. However, it should work properly for single scripts. Run script like this if something fails.
 `python3 -u main.py`
